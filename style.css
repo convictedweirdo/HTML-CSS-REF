@@ -1,0 +1,7 @@
+/* CSS REFERENCE GUIDE by ConvictedWeirdo */
+
+/* CSS VARIABLES - PLACE IN :root FOR GLOBAL ACCESS */
+:root {
+    --main-bg: blue;
+    --main-font-color: yellow;
+}
