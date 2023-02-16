@@ -1,7 +1,24 @@
 /* CSS REFERENCE GUIDE by ConvictedWeirdo */
 
-/* CSS VARIABLES - PLACE IN :root FOR GLOBAL ACCESS */
+/* Overwrite default */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS VARIABLES - PLACE IN :root FOR GLOBAL ACCESS - NORD THEME nordtheme.com*/
 :root {
-    --main-bg: blue;
-    --main-font-color: yellow;
+    --main-bg: #3B4252; 
+    --main-font-color: #E5E9F0;
+}
+
+body {
+    background-color: var(--main-bg);
+    color: var(--main-font-color);
+    font-family: 'Electrolize', sans-serif;
+}
+
+pre {
+    background: white;
 }
